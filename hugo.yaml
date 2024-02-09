@@ -10,7 +10,6 @@ languages:
     languageDirection: rtl
     languageName: العربية
     params:
-      subtitle:
       favicon: img/icon-ar.svg
       sidebar:
         subtitle:
@@ -26,7 +25,6 @@ languages:
     languageDirection: ltr
     languageName: English
     params:
-      subtitle:
       favicon: img/icon-en.svg
       sidebar:
         subtitle:
@@ -173,3 +171,13 @@ params:
             enabled: true
         content:
             enabled: true
+
+menu:
+    social:
+        -
+            name: GitHub
+            url: https://www.github.com/ah-hamed/
+            weight: 500
+            params:
+                icon: brand-github
+                newTab: true
