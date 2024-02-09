@@ -1,8 +1,29 @@
-baseURL: https://example.org/
+baseURL: https://ah-hamed.com/
 theme: hugo-theme-stack
 
-languageCode: en-us
-title: My New Hugo Site
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  ar:
+    disabled: false
+    languageCode: ar-EG
+    languageDirection: rtl
+    languageName: العربية
+    params:
+      subtitle:
+      favicon: img/icon-ar.svg
+    title: أحمد حامد
+    weight: 1
+  en:
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      subtitle:
+      favicon: img/icon-en.svg
+    title: Ahmed Hamed
+    weight: 2
 
 module:
     hugoVersion:
@@ -14,7 +35,6 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
 
     footer:
         since:
