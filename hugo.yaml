@@ -12,6 +12,12 @@ languages:
     params:
       subtitle:
       favicon: img/icon-ar.svg
+      sidebar:
+        subtitle:
+        avatar:
+            enabled: true
+            local: false
+            src: img/avatar-ar.svg
     title: أحمد حامد
     weight: 1
   en:
@@ -22,6 +28,12 @@ languages:
     params:
       subtitle:
       favicon: img/icon-en.svg
+      sidebar:
+        subtitle:
+        avatar:
+            enabled: true
+            local: false
+            src: img/avatar-en.svg
     title: Ahmed Hamed
     weight: 2
 
@@ -47,11 +59,6 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle:
-        avatar:
-            enabled: true
-            local: true
-            src: img/avatar.png
 
     article:
         math: false
