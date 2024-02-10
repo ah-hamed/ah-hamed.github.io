@@ -42,7 +42,9 @@ module:
 
 params:
     mainSections:
-        - post
+        - blog
+        - services
+        - projects
     featuredImageField: image
     rssFullContent: true
 

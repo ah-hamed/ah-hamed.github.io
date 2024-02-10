@@ -1,16 +1,16 @@
 {{ define "main" }}
     <header>
-        <h3 class="section-title">
-            {{ if eq .Parent (.GetPage "/") }}
-                {{ T "list.section" }}
-            {{ else }}
+        {{ if eq .Parent (.GetPage "/") }}
+            <h3 class="section-title">
                 {{ .Parent.Title }}
-            {{ end }}
-        </h3>
+            </h3>
+        {{ end }}
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
+                {{ if eq .Params.ShowPagesCount true }}
+                    <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
+                {{ end }}
                 <h1 class="section-term">{{ .Title }}</h1>
                 {{ with .Params.description }}
                     <h2 class="section-description">{{ . }}</h2>
@@ -60,7 +60,7 @@
             <div class="subsection-list">
                 <div class="article-list--tile">
                     {{ range . }}
-                        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
+                        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section" "ShowArticlesTime" "12") }}
                     {{ end }}
                 </div>
             </div>
