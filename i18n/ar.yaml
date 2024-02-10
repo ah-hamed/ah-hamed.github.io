@@ -1,12 +1,12 @@
 toggleMenu:
-    other: اخفي القائمة
+    other: تبديل القائمة
 
 darkMode:
     other: الوضع الداكن
 
 list:
     page:
-        one: "{{ .Count }} صفحه"
+        one: "{{ .Count }} صفحة"
         other: "{{ .Count }} صفحات"
 
     section:
@@ -14,39 +14,39 @@ list:
 
     subsection:
         one: قسم فرعي
-        other: اقسام فرعية
+        other: أقسام فرعية
 
 article:
     back:
-        other: خلف
+        other: رجوع
 
     tableOfContents:
         other: جدول المحتويات
 
     relatedContent:
-        other: محتوى مشابهه
+        other: محتوى ذو صلة
         
     lastUpdatedOn:
-        other: التعديل الاخير
+        other: آخر تحديث في
 
     readingTime:
-        one: "تُقرأ خلال دقيقة"
-        other: "تُقرأ خلال {{ .Count }} دقائق"
+        one: "تُقرأ في دقيقة"
+        other: "تُقرأ في {{ .Count }} دقائق"
 
 notFound:
     title:
         other: غير موجود
 
     subtitle:
-        other: تعذر العثور على الصفحة المطلوبة.
+        other: تعذر العثور على الصفحة المطلوبة
 
 widget:
     archives:
         title:
-            other: الارشيفات
+            other: الأرشيفات
 
         more:
-            other: اكثر
+            other: المزيد
 
     tagCloud:
         title:
@@ -54,21 +54,21 @@ widget:
             
     categoriesCloud:
         title:
-            other: التصنيفات
+            other: الفئات
 
 search:
     title:
         other: بحث
 
     placeholder:
-        other: اكتب...
+        other: اكتب شيئا...
 
     resultTitle:
-        other: "#PAGES_COUNT نتيجة (#TIME_SECONDS ثواني)"
+        other: "#PAGES_COUNT نتيجة (#TIME_SECONDS ثوان)"
 
 footer:
     builtWith:
-        other: "مبني بستخدام {{ .Generator }}"
+        other: "مبني باستخدام {{ .Generator }}"
         
     designedBy:
-        other:  "قالب {{ .Theme }} مصمم من {{ .DesignedBy }}"
+        other:  "قالب {{ .Theme }} من تصميم {{ .DesignedBy }}"
