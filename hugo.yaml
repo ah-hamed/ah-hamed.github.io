@@ -144,8 +144,17 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - 
+                type: "search"
+        page:
+            - 
+                type: "search"
+            - 
+                type: "tag-cloud"
+                params:
+                    limit: 10
+
 
     opengraph:
         twitter:
