@@ -9,6 +9,11 @@ tags:
     - Bootstrap
 date: 2023-04-26
 image: grades-square-sm.svg
+links:
+  - title: Live demo
+    description: A live demo of Grades webapp
+    website: https://gradesapp.azurewebsites.net/
+    image: grades-square.svg
 ---
 
 **Grades** is a webapp that allows school admins to manage marks of school students in different school subjects.

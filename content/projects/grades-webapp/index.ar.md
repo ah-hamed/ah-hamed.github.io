@@ -9,6 +9,11 @@ tags:
     - Bootstrap
 date: 2023-04-26
 image: grades-square-sm.svg
+links:
+  - title: عرض حي
+    description: عرض حي للتطبيق
+    website: https://gradesapp.azurewebsites.net/
+    image: grades-square.svg
 ---
 
 تطبيق **Grades** هو تطبيق ويب يمكّن مسؤلي المدارس من إدارة درجات الطلاب في المواد الدراسية المختلفة.
