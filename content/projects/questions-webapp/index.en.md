@@ -11,8 +11,8 @@ date: 2023-10-17
 image: study_question.png
 links:
   - title: Live demo
-    description: A live demo of Questions webapp (will be available soon)
-    website:
+    description: A live demo of Questions webapp
+    website: https://questionsapp.azurewebsites.net/
     image: questions-square.svg
 ---
 
