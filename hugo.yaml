@@ -5,7 +5,7 @@ caches:
 baseURL: https://ah-hamed.com/
 pagination:
   pagerSize: 5
-theme: PaperMod
+theme: ["PaperMod", "hugo-shortcode-gallery"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -67,9 +67,9 @@ params:
   #     SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
@@ -91,6 +91,9 @@ params:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true # Set to true to allow raw HTML/JS
   highlight:
     noClasses: false
     # anchorLineNos: true
