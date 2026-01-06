@@ -1,5 +1,103 @@
+caches:
+  images:
+    dir: :cacheDir/images
+
 baseURL: https://ah-hamed.com/
-theme: hugo-theme-stack
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-ZH7ECVKJRH
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    # - RSS
+    - JSON # necessary for search
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # Either show all pages in archives OR only pages of types listed under mainSections
+  ShowAllPagesInArchive: false
+  mainSections:
+    - "work"
+    # - "blog"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/ah-hamed/"
+    - name: github
+      url: "https://github.com/ah-hamed/"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -9,186 +107,148 @@ languages:
     languageCode: ar-EG
     languageDirection: rtl
     languageName: العربية
-    params:
-      favicon: img/icon-ar.svg
-      sidebar:
-        subtitle:
-        avatar:
-            enabled: true
-            local: false
-            src: img/avatar-ar.svg
-    title: أحمد حامد
     weight: 1
+    title: أحمد حامد
+
+    menu:
+      main:
+        - identifier: home
+          name: الرئيسية
+          url: /ar/
+          weight: 10
+        - identifier: tags
+          name: الوسوم
+          url: /ar/tags/
+          weight: 20
+        - identifier: archive
+          name: الأرشيف
+          url: /ar/archive/
+          weight: 30
+        - identifier: search
+          name: ابحث
+          url: /ar/search/
+          weight: 40
+    #     - identifier: example
+    #       name: example.org
+    #       url: https://example.org
+    #       weight: 50
+
+    params:
+      # SEO meta data
+      title: أحمد حامد
+      # description: "ExampleSite description"
+      # keywords: [Blog, Portfolio, PaperMod]
+      # author: Me
+      # author: ["Me", "You"] # multiple authors
+      # images: ["<link or path of image for opengraph, twitter-cards>"]
+
+      DateFormat: "02 Jan 2006"
+      
+      assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "img/icon-ar.svg" # <link / abs url>
+        favicon16x16: "img/icon-ar.svg" # <link / abs url>
+        favicon32x32: "img/icon-ar.svg" # <link / abs url>
+        apple_touch_icon: "img/icon-ar.svg" # <link / abs url>
+        safari_pinned_tab: "img/icon-ar.svg" # <link / abs url>
+
+      label:
+        text: " "
+        icon: img/icon-ar.svg
+        iconHeight: 45 # default: 35
+
+      # profile-mode
+      profileMode:
+        enabled: false # needs to be explicitly set
+        title: ExampleSite
+        subtitle: "This is subtitle"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+          - name: Posts
+            url: posts
+          - name: Tags
+            url: tags
+
+      # home-info mode
+      homeInfoParams:
+        Title: "يا أهلًا وسهلًا 👋"
+        Content: أنا أحمد حامد، طبيب ومطور ويب، أسعى جاهدًا لتوفير حلول تساعد الأطباء وتجعل حياتهم أسهل.
   en:
     disabled: false
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    params:
-      favicon: img/icon-en.svg
-      sidebar:
-        subtitle:
-        avatar:
-            enabled: true
-            local: false
-            src: img/avatar-en.svg
-    title: Ahmed Hamed
     weight: 2
+    title: Ahmed Hamed
 
-module:
-    hugoVersion:
-        extended: true
-        min: "0.87.0"
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /en/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /en/tags/
+          weight: 20
+        - identifier: archive
+          name: Archive
+          url: /en/archive/
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /en/search/
+          weight: 40
+    #     - identifier: example
+    #       name: example.org
+    #       url: https://example.org
+    #       weight: 50
 
-params:
-    mainSections:
-        - blog
-        - services
-        - projects
-    featuredImageField: image
-    rssFullContent: true
+    params:
+      # SEO meta data
+      title: Ahmed Hamed
+      # description: "ExampleSite description"
+      # keywords: [Blog, Portfolio, PaperMod]
+      # author: Me
+      # author: ["Me", "You"] # multiple authors
+      # images: ["<link or path of image for opengraph, twitter-cards>"]
 
-    footer:
-        since:
-        customText:
+      DateFormat: "02 Jan 2006"
+      
+      assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "img/icon-en.svg" # <link / abs url>
+        favicon16x16: "img/icon-en.svg" # <link / abs url>
+        favicon32x32: "img/icon-en.svg" # <link / abs url>
+        apple_touch_icon: "img/icon-en.svg" # <link / abs url>
+        safari_pinned_tab: "img/icon-en.svg" # <link / abs url>
 
-    dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+      label:
+        text: " "
+        icon: img/icon-en.svg
+        iconHeight: 45 # default: 35
 
-    sidebar:
-        compact: false
-        emoji:
+      # profile-mode
+      profileMode:
+        enabled: false # needs to be explicitly set
+        title: ExampleSite
+        subtitle: "This is subtitle"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+          - name: Posts
+            url: posts
+          - name: Tags
+            url: tags
 
-    article:
-        math: false
-        toc: true
-        readingTime: true
-        license:
-            enabled: false
-            default: Licensed under CC BY-NC-SA 4.0
-
-    comments:
-        enabled: false
-        provider: disqus
-
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
-
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
-
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
-        waline:
-            serverURL:
-            lang:
-            visitor:
-            avatar:
-            emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
-            requiredMeta:
-                - nick
-                - mail
-            placeholder:
-            locale:
-                admin: Admin
-
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
-
-        giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            strict:
-            lightTheme:
-            darkTheme:
-            reactionsEnabled: 1
-            emitMetadata: 0
-            inputPosition:
-            lang:
-
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-
-        cusdis:
-            host:
-            id:
-
-    widgets:
-        homepage:
-            - 
-                type: "search"
-        page:
-            - 
-                type: "search"
-            - 
-                type: "tag-cloud"
-                params:
-                    limit: 10
-
-
-    opengraph:
-        twitter:
-            # Your Twitter username
-            site:
-
-            # Available values: summary, summary_large_image
-            card: summary_large_image
-
-    defaultImage:
-        opengraph:
-            enabled: false
-            local: false
-            src:
-
-    colorScheme:
-        # Display toggle
-        toggle: true
-
-        # Available values: auto, light, dark
-        default: auto
-
-    imageProcessing:
-        cover:
-            enabled: true
-        content:
-            enabled: true
-
-menu:
-    social:
-        -
-            name: GitHub
-            url: https://www.github.com/ah-hamed/
-            weight: 500
-            params:
-                icon: brand-github
-                newTab: true
+      # home-info mode
+      homeInfoParams:
+        Title: "Hi there 👋"
+        Content: I'm Ahmed Hamed, a doctor and web developer who works on solutions that help doctors and make their lives easier.

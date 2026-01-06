@@ -1,11 +1,7 @@
 ---
+draft: true
+url: /en/blog/
 title: Blog
-url: blog
-showPagesCount: true
-menu:
-    main:
-        name: Blog
-        weight: 475
-        params:
-            icon: article
+description: >
+    Describe me.
 ---
