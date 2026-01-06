@@ -1,0 +1,6 @@
+/* Force LTR for Swipebox lightbox */
+#swipebox-overlay,
+#swipebox-slider,
+.swipebox {
+    direction: ltr !important;
+}
