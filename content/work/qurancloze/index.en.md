@@ -1,33 +1,47 @@
 ---
 title: QuranCloze Anki Deck
 tags:
-    - Anki
-    - HTML
-    - CSS
-    - JavaScript
+  - Anki
 date: 2021-12-19
-image: front_light.png
-links:
-  - title: AnkiWeb
-    description: Deck link on AnkiWeb
-    website: https://ankiweb.net/shared/info/555820561
-    image: https://ankiweb.net/logo.png
-  - title: GitHub
-    description: Project link on GitHub
-    website: https://github.com/ah-hamed/QuranCloze
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+hiddenInHomelist: true
 ---
 
-**QuranCloze** is an Anki deck that contains all pages of The Noble Quran, designed in a way that simplifies the process of creating cloze flashcards and studying them.  
+**QuranCloze** is an Anki deck I created containing all 604 pages of The Noble Quran, designed in a way that simplifies the process of creating cloze deletion flashcards and studying them. With this deck, you can easily create cloze deletion flashcards for any text of the Quran you struggle to memorize.
+
+> **Note:** Anki is a spaced repetition flashcard application that helps with long-term memorization.
 
 ## Features
-- The deck initially contains 604 notes, exactly as the number of Quran pages, however, there isn't yet any cards (i.e. no actual questions). User's role is to select the text that they would like to study then clicking the [...] button to create new cards.
-- After the user answers a question, a number of previous and following pages to the current page appear, so that the user can review the context of current question if they need.
-- There is visual enhancement and discrimination of the direction of the Quranic page, either a right or a left page, which aids the visual memory. Dark mode is also supported.
-- The deck is organized by tags. There are tags for both Surahs and Juz's.
+
+- The deck initially contains 604 notes corresponding to each Quran page, but no cards are created by default (i.e. no actual questions). Users select text they want to study and click the `[...]` button to generate new cloze deletion cards.
+
+- After answering a question, several previous and following pages appear in the back of the card so that the user can review the context of current question if they need.
+
+- Visual enhancements include discrimination between right and left pages to aid visual memory, with full dark mode support.
+
+- The deck is organized using tags for both Surahs and Juz's, making it easy to focus on specific sections.
+
+## Key Benefits
+
+- Covers all 604 Quran pages
+
+- Customizable - create cards only for verses you need
+
+- Visual memory aids (right/left page distinction)
+
+- Context-aware review system
 
 ## Screenshots
-![Front side](front_light.png)
 
-![Front side in dark mode](front_dark.png)
-![Back side in dark mode](back_dark.png)
+{{< gallery match="screenshots/*" sortOrder="acs" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=false previewType="blur" embedPreview=true loadJQuery=true >}}
+
+## How To Use This Deck
+
+To see the full guide on how to use this deck, please visit the project's page on [GitHub](https://github.com/ah-hamed/QuranCloze?tab=readme-ov-file#%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85).
+
+## Technologies Used
+
+I built the QuranCloze deck with HTML, CSS, and JavaScript to create the interactive card interface. A custom cloze deletion card type is created, which allows users to hide selected text portions for active recall testing.
+
+## Project Links
+
+Download the deck from [AnkiWeb](https://ankiweb.net/shared/info/555820561) or view the source code on [GitHub](https://github.com/ah-hamed/QuranCloze).
