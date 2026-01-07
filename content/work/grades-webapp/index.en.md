@@ -1,69 +1,69 @@
 ---
 title: Grades WebApp with Flask
 tags:
-    - Flask
-    - Python
-    - SQL
-    - HTML
-    - CSS
-    - Bootstrap
+  - Webapp
+  - Flask
 date: 2023-04-26
-image: grades-square-sm.svg
-links:
-  - title: Live demo
-    description: A live demo of Grades webapp
-    website: https://gradesapp.azurewebsites.net/
-    image: grades-square.svg
+hiddenInHomelist: true
+TocOpen: true
 ---
 
-**Grades** is a webapp that allows school admins to manage marks of school students in different school subjects.
+**Grades** is a web application I developed that allows school admins to manage student marks across different subjects in an organized and user-friendly way. The app is designed for small to medium-sized schools that need a simple solution for tracking grades and academic performance.
+
+> **Note:** Grades was my graduation project for Harvard University's CS50's Introduction to Computer Science, developed entirely from concept to implementation.
+
+## Key Features
+
+- Manage schools, subjects, and students across multiple academic years and semesters
+- Comprehensive tracking of grades, percentages, and class rankings for each student
+- Dual interface system: separate Admin and Student portals with independent login credentials
+- Responsive Bootstrap-based interface that works seamlessly across different screen sizes
+
+## Admin Features
+
+- **School Management:**
+    - Create new schools or join existing ones using a unique symbol and password for admin collaboration.
+    - Configure school settings including name, number of years, and semesters per year.
+- **Subject Management:** 
+    - Define subjects with details such as title, code, final mark, and year-semester combination.
+    - Easily modify or delete subjects as needed.
+- **Student Management:**
+    - Add and manage student information including name, code, current year-semester, and secure login credentials (username/password).
+- **Academic Tracking:**
+    - Automatically calculates and displays total marks, percentages, grades, and class rankings for each student.
+- **Flexible Modifications:**
+    - Make adjustments to account settings, school configurations, subject details, and student data at any time.
+
+## Student Features
+
+- **Individual Access:**
+    - Students log in using their unique credentials (username/password) to view their marks
+- **Comprehensive View:**
+    - Detailed breakdown of marks by subject, year-semester information, and overall academic performance including class rank
 
 ## Screenshots
-![Admin's schools](my_schools.png) ![Link a school](link_a_school.png) ![Single school view](demo_school.png)
 
-![Subject data](subject_data.png) ![Student summary](student_summary.png) ![Ranking](ranking.png)
+{{< gallery match="screenshots/*" sortOrder="acs" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=false previewType="blur" embedPreview=true loadJQuery=true >}}
 
-**Here is a walkthrough video of the project:**
+## Walkthrough Video
+
 {{< youtube "qk_kFFU9T7c" >}}
 
-## My Role in This Project
-Grades was one of the earliest webapps I've ever made! I have conceptualized and designed it from scratch as part of my graduation project of CS50's Introduction to Computer Science provided by Harvard University. It took me around three weeks to complete it to reach the current stage.
+## Technologies Used
 
-#### Technologies used:
-- Flask Framework
-- Python
-- SQLite
-- HTML, CSS, Bootstrap
+I built Grades using the following technologies:
 
-## Features
+- **Flask (Python):** Backend framework for server logic, authentication, and session management
+- **SQLite:** Lightweight database for storing schools, subjects, students, and grades data
+- **HTML, CSS, Bootstrap:** Frontend design with responsive layout
+- **Jinja:** Templating engine for dynamic page generation
 
-#### Admin-Side Features:
+## Development Background
 
-- School Management:
-    - Admins can sign up and create new schools or join existing ones using a unique symbol and password.
-    - Each school has distinct settings including name, symbol, password for admin collaboration, number of school years, and semesters per year.
+Grades was one of the earliest web applications I ever built. I conceptualized and designed it from scratch as my final project for Harvard University's CS50's Introduction to Computer Science. The entire development process took approximately three weeks from initial concept to the current stage.
 
-- Subject Management:
-    - Admins can define subjects with details such as title, code, final mark, and the year-semester combination.
-    - Easily modify subject settings, including deletion.
+View my CS50 certificate [here](https://certificates.cs50.io/f6fe2bd3-3279-4831-8781-1c8feeb640e4).
 
-- Student Information:
-    - Student details include name, code, current year-semester, and a secure username/password for individual logins.
-    - Admins can manage student data, including modifications and deletions.
+## Project Links
 
-- Academic Tracking:
-    - Grades calculates and tracks total marks, percentages, grades, and class ranks for each student.
-
-- Flexible Modifications:
-    - Admins can make adjustments to various settings, including account details, school configurations, subject details, and student data.
-
-- Secure Account Management:
-    - Admins have the capability to modify account settings, ensuring a secure and personalized experience.
-
-#### Student-Side Features:
-
-- Individual Access:
-    - Students can log in using their unique username and password to access and view their marks.
-
-- Comprehensive Mark View:
-    - Grades provides a detailed breakdown of student marks, year-semester information, and overall academic performance. 
+View the live demo at [gradesapp.azurewebsites.net](https://gradesapp.azurewebsites.net/)
