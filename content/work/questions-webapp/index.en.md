@@ -6,6 +6,12 @@ tags:
 date: 2023-10-17
 hiddenInHomelist: true
 TocOpen: true
+cover:
+    image: "cover/questions-cover.png" # image path/url
+    alt: "Questions WebApp Cover Image" # alt text for the image
+    # caption: "Grades Web Application" # caption for the image
+    # relative: false # when using page bundles set this to true
+    # hidden: false # only hide on current single page
 ---
 
 **Questions** is a web application I developed that allows users to study questions they create themselves or access questions shared by other users. The app provides a flexible platform for organizing, sharing, and studying educational content with advanced tracking and ordering features.

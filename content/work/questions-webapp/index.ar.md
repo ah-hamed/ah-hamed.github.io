@@ -6,6 +6,12 @@ tags:
 date: 2023-10-17
 hiddenInHomelist: true
 TocOpen: true
+cover:
+    image: "cover/questions-cover.png" # image path/url
+    alt: "Questions WebApp Cover Image" # alt text for the image
+    # caption: "Grades Web Application" # caption for the image
+    # relative: false # when using page bundles set this to true
+    # hidden: false # only hide on current single page
 ---
 
 **Questions** هو تطبيق ويب قمت بتطويره، وهو يتيح للمستخدمين دراسة الأسئلة التي ينشئونها بأنفسهم أو يشاركها معهم مستخدمون آخرون. يوفر التطبيق منصة مرنة لتنظيم ومشاركة ودراسة المحتوى التعليمي مع ميزات متقدمة للتتبع والترتيب.

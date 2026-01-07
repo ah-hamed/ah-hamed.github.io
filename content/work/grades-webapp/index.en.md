@@ -6,6 +6,12 @@ tags:
 date: 2023-04-26
 hiddenInHomelist: true
 TocOpen: true
+cover:
+    image: "cover/grades-cover.png" # image path/url
+    alt: "Grades WebApp Cover Image" # alt text for the image
+    # caption: "Grades Web Application" # caption for the image
+    # relative: false # when using page bundles set this to true
+    # hidden: false # only hide on current single page
 ---
 
 **Grades** is a web application I developed that allows school admins to manage student marks across different subjects in an organized and user-friendly way. The app is designed for small to medium-sized schools that need a simple solution for tracking grades and academic performance.

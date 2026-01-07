@@ -6,6 +6,12 @@ tags:
 date: 2023-04-26
 hiddenInHomelist: true
 TocOpen: true
+cover:
+    image: "cover/grades-cover.png" # image path/url
+    alt: "Grades WebApp Cover Image" # alt text for the image
+    # caption: "Grades Web Application" # caption for the image
+    # relative: false # when using page bundles set this to true
+    # hidden: false # only hide on current single page
 ---
 
 **Grades** هو تطبيق ويب قمت بتطويره، وهو يتيح لمسئولي المدارس إدارة درجات الطلاب في المواد الدراسية المختلفة بطريقة منظمة وسهلة الاستخدام. فكرة التطبيق موجهة للمدارس الصغيرة والمتوسطة التي تحتاج إلى حل بسيط لتتبع الدرجات والأداء الأكاديمي.

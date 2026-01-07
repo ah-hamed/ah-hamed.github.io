@@ -4,6 +4,13 @@ tags:
   - Anki
 date: 2021-12-19
 hiddenInHomelist: true
+TocOpen: true
+cover:
+    image: "cover/qurancloze-cover.png" # image path/url
+    alt: "QuranCloze Anki Deck Cover Image" # alt text for the image
+    # caption: "QuranCloze Anki Deck" # caption for the image
+    # relative: false # when using page bundles set this to true
+    # hidden: false # only hide on current single page
 ---
 
 **QuranCloze** is an Anki deck I created containing all 604 pages of The Noble Quran, designed in a way that simplifies the process of creating cloze deletion flashcards and studying them. With this deck, you can easily create cloze deletion flashcards for any text of the Quran you struggle to memorize.
