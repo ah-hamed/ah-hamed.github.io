@@ -57,6 +57,10 @@ params:
       url: "https://linkedin.com/in/ah-hamed/"
     - name: github
       url: "https://github.com/ah-hamed/"
+    - name: telegram
+      url: "https://t.me/ahmedhamed_1"
+    - name: email
+      url: mailto:ahmed.sendme@outlook.com
 
   # analytics:
   #   google:
