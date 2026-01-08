@@ -3,6 +3,6 @@ title: "Archive"
 layout: "archives"
 url: "/en/archive"
 summary: "archive"
-# description: >
-#     This is a description.
+description: >
+    A collection of things I've worked on over the years.
 ---
