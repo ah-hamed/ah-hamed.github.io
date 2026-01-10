@@ -37,49 +37,51 @@ In one of the PowerPoint videos, there was a part that needed pen explanation, s
 
 ## Videos
 
-Here's a sample of the videos I produced, ordered from oldest to newest:
+Here's a sample of the videos I produced, ordered from oldest to newest.
 
-**مراجعة عامة - العلوم** - February 2015
+*All videos are in Arabic.*
+
+**General Review - Science (Grade 3 Preparatory)** - February 2015  
 {{< youtube ZCM9ToMt2HI >}}
 
-**مراجعة عامة - الهندسة التحليلة** - February 2015
+**General Review - Analytic Geometry (Grade 3 Preparatory)** - February 2015  
 {{< youtube qpQUUacScHA >}}
 
-**مراجعة عامة - حساب مثلثات** - February 2015
+**General Review - Trigonometry (Grade 3 Preparatory)** - February 2015  
 {{< youtube z4fR-UqPtnc >}}
 
-**مراجعة عامة - العلوم** - March 2015
+**General Review - Science (Grade 1 Preparatory)** - March 2015  
 {{< youtube 3zF2yzEEH1s >}}
 
-**مراجعة عامة - النحو** - March 2015
+**General Review - Arabic Grammar (النحو) (Grade 4 Primary)** - March 2015  
 {{< youtube OkztwOPxQiE >}}
 
-**مراجعة عامة - الجغرافيا** - March 2015
+**General Review - Geography (Grade 6 Primary)** - March 2015  
 {{< youtube fQIT5qfLc9Y >}}
 
-**الدائرة** - February 2016
+**The Circle (Grade 5 Primary)** - February 2016  
 {{< youtube yGLrEZ49Yzo >}}
 
-**مكملة المجموعة** - March 2016
+**Complement of a Set (Grade 5 Primary)** - March 2016  
 {{< youtube SmVLF1xDS4w >}}
 
-**رسم مثلث إذا عُلم أطوال أضلاعه الثلاثة** - March 2016
+**Constructing a Triangle Given the Lengths of Its Three Sides (Grade 5 Primary)** - March 2016  
 {{< youtube FenlarVDvaw >}}
 
-**اسم المرة واسم الهيئة** - March 2016
+**Noun of Instance & Noun of Manner (اسم المرة واسم الهيئة) (High School)** - March 2016  
 {{< youtube 75uUbd9TWhA >}}
 
-**جمع التكسير** - March 2016
+**Broken Plurals (جمع التكسير) (Grade 5 Primary)** - March 2016  
 {{< youtube smGOC13j2eI >}}
 
-**الفعل اللازم والفعل المتعدي** - May 2016
+**Intransitive and Transitive Verbs (الفعل اللازم والفعل المتعدي) (Grade 1 Preparatory)** - May 2016  
 {{< youtube aOx9jQ8iobw >}}
 
-**إعراب الفاعل** - May 2016
+**Parsing the Subject (إعراب الفاعل) (Grade 5 Primary)** - May 2016  
 {{< youtube zLZe2hj6W94 >}}
 
-**اسم الفاعل** - June 2016
+**Active Participle (اسم الفاعل) (Grade 3 Preparatory)** - June 2016  
 {{< youtube kSxwDt7j5S4 >}}
 
-**اسم الآلة** - January 2017
+**Instrument Noun (اسم الآلة) (High School)** - January 2017  
 {{< youtube Tp0t-ldkh60 >}}
